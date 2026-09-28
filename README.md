@@ -5,6 +5,32 @@
 The platform combines real-time weather data, Artificial Intelligence, and data visualization to provide users with accurate and easy-to-understand weather insights. Instead of simply displaying temperature and weather conditions, SkyCast AI analyzes weather patterns and provides personalized predictions, alerts, and recommendations.
 
 ---
+## 👤 Use Case Diagram
+
+The use case diagram shows how users interact with the main features of SkyCast AI.
+
+```mermaid
+flowchart LR
+
+    U["👤 User"]
+
+    subgraph SC["SkyCast AI"]
+        A(["View Weather"])
+        B(["Search Location"])
+        C(["View Forecast"])
+        D(["Weather Alerts"])
+        E(["AI Weather Insights"])
+        F(["Weather Analytics"])
+        G(["Save Locations"])
+    end
+
+    U --- A
+    U --- B
+    U --- C
+    U --- D
+    U --- E
+    U --- F
+    U --- G
 
 ## ✨ Features
 
