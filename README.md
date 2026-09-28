@@ -34,7 +34,7 @@ flowchart LR
 
 
 
-## ✨ Features
+### ✨ Features
 
 ### 🌦️ Real-Time Weather Tracking
 - View current weather conditions
